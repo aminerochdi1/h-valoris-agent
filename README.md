@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🤖 Agent Conversationnel H Valoris — Documentation Technique
 
-## Getting Started
+## 🎯 Aperçu du Projet
 
-First, run the development server:
+Cet agent conversationnel a été développé pour servir de **premier point de contact automatisé** pour **H Valoris**.  
+Il est conçu pour **optimiser l'engagement utilisateur** et la **qualification des leads**.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### ✅ Objectifs Clés
+- Qualification des prospects  
+- Fourniture rapide d’informations (FAQ, réseaux sociaux)  
+- Collecte structurée des coordonnées pour le suivi commercial  
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 🎯 Mission
+L’agent est aligné sur les domaines d’expertise du cabinet :
+- Management  
+- Stratégie  
+- Conseil en Technologie  
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Architecture Technique
 
-## Learn More
+Le projet repose sur une **architecture Low-Code / No-Code** pour la logique conversationnelle, intégrée dans une application front-end moderne basée sur **Next.js**.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Le Moteur de Dialogue — Typebot
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+L’intégralité du flux de dialogue est gérée par **Typebot**, une plateforme spécialisée dans la création d’expériences conversationnelles visuelles.
 
-## Deploy on Vercel
+### Rôle de Typebot
+- Gestion de la logique conversationnelle  
+- Intégrations API  
+- Envoi des leads via Webhooks  
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🔗 Lien du Flux Visuel
+[[flux Typebot](https://h-valoris-agent-beta.vercel.app/)]
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+
